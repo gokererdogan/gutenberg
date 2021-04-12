@@ -1,6 +1,6 @@
 # Preprocessed Gutenberg Catalog and Simple Gutenberg Utilities
 
-*Note: If you are looking for a full-fledged Gutenberg catalog library in Python, check out [gutenberg](http://gokererdogan.github.io/WordGame/bertai.html) or [gutenbergpy](https://github.com/raduangelescu/gutenbergpy).*
+*Note: If you are looking for a full-fledged Gutenberg catalog library in Python, check out [gutenberg](https://github.com/c-w/gutenberg) or [gutenbergpy](https://github.com/raduangelescu/gutenbergpy).*
 
 Get the pickled native python Gutenberg catalog [here](https://www.dropbox.com/s/hyfeo3f9ne6zynt/gutenberg.pkl?dl=0) (93MB).
 
@@ -27,7 +27,7 @@ The catalog is a list of dictionaries with one dictionary for each source in Gut
 This repository also contains some basic functionality to interface with the Gutenberg catalog. These are:
 
   - `GutenbergCatalog` class that allows searching for book ids by author etc.
-  - `get_text` and `strip_headers` functions to download book texts and clean them. (These are copied from [gutenberg]() library.)
+  - `get_text` and `strip_headers` functions to download book texts and clean them. (These are copied from [gutenberg](https://github.com/c-w/gutenberg) library.)
 
 
 ```
